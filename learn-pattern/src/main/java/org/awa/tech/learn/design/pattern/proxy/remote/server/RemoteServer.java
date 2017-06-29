@@ -9,7 +9,7 @@ import java.rmi.Naming;
 import java.rmi.RemoteException;
 
 /**
- * DESCRIPTION
+ * 注册前要开启注册：rmiregistry
  * Created by wb-lyw190343 on 2017/6/29.
  */
 public class RemoteServer {
