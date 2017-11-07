@@ -5,7 +5,7 @@ package org.awa.tech.learn.javase.reflect;
  */
 public class Person {
 
-    protected String name;
+    public String name;
     private String age;
     private String sex;
 

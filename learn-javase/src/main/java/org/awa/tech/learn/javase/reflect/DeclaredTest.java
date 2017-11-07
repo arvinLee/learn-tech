@@ -16,9 +16,10 @@ public class DeclaredTest {
 
         for (Field filed : Person.class.getDeclaredFields()){
             System.out.println("Person declared filed:"+filed.getName());
-            filed.get(person);
+//            filed.get(person);
 
         }
+
 
         for (Field filed : Person.class.getFields()){
             System.out.println("Person filed:"+filed.getName());
